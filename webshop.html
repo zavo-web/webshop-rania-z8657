@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Webshop - Haarproducten</title>
+    <link rel="stylesheet" href="webshop.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-content">
+        <img
+          src="data:image/png;base64,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"
+          class="logo"
+        />
+        <h1>Hair care shop</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#producten">Producten</a></li>
+          <li><a href="#categorieën">Categorieën</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <aside class="sidebar">
+        <h2>Categorieën</h2>
+        <ul>
+          <li><a href="#shampoo">Shampoo</a></li>
+          <li><a href="#conditioner">Conditioner</a></li>
+          <li><a href="#styling">Styling</a></li>
+          <li><a href="#tools">Haar Tools</a></li>
+          <li><a href="#accessoires">Accessoires</a></li>
+        </ul>
+
+        <h2>Populaire Merken</h2>
+        <ul>
+          <li><a href="#kerastase">Kérastase</a></li>
+          <li><a href="#loreal">L'Oréal</a></li>
+          <li><a href="#redken">Redken</a></li>
+          <li><a href="#schwarzkopf">Schwarzkopf</a></li>
+        </ul>
+      </aside>
+
+      <main class="producten" id="producten">
+        <h2>Onze Haarproducten</h2>
+
+        <section class="productList">
+          <section class="product">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpukknYKSZrPI1bYpN6PmBUPTiLktXQBI9FA&s"
+              alt="Haar product"
+            />
+            <h3>Blond Absolu Bain Ultra-Violet</h3>
+            <p>
+              Bain Ultra-Violet is een paarse shampoo ontworpen voor gebleekt,
+              koel blond of grijs haar.
+            </p>
+            <p>25,99 €</p>
+            <button>In winkelwagen</button>
+          </section>
+          <section class="product">
+            <img
+              src="https://cdn.basler-beauty.de/out/pictures/generated/product/1/980_980_100/2563479-Kerastase-Nutritive-Bain-Satin-Shampoo-250-ml.251b84a8.jpg"
+              alt="Haar product"
+            />
+            <h3>Kérastase Nutritive Bain Satin Shampoo</h3>
+            <p>
+              Een lichtgewicht formule die droog haar grondig reinigt en
+              tegelijkertijd vocht en comfort herstelt.
+            </p>
+            <p>23,34 €</p>
+            <button>In winkelwagen</button>
+          </section>
+          <section class="product">
+            <img
+              src="https://www.celini.be/12804-medium_default/kerastase-resistance-bain-extentioniste-250ml.jpg"
+              alt="Haar product"
+            />
+            <h3>Kérastase Résistance Bain Extentioniste</h3>
+            <p>
+              De shampoo voor haargroei en versterking van het haar vanaf de
+              wortels Kérastase Résistance Bain Extentioniste dringt door tot
+              diep in de haarvezels en beschermt ze tijdens de groei over de
+              hele lengte.
+            </p>
+            <p>20,20 €</p>
+            <button>In winkelwagen</button>
+          </section>
+        </section>
+      </main>
+    </div>
+
+    <footer>
+      <p>Volg ons op sociale media:</p>
+      <ul>
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li>
+          <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
