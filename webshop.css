@@ -139,6 +139,42 @@ nav ul li a:hover {
   color: #cdcbcbd5;
 }
 
+/* Zoekbalk styling in de sidebar */
+.sidebar-links li input[type="text"] {
+  width: 80%;
+  padding: px;
+  margin: 4px 0px;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+/* Zoekbalk hover en focus effecten */
+.sidebar-links li input[type="text"]:focus {
+  border-color: #ffffff;
+  box-shadow: 0 0 5px rgba(236, 223, 223, 0.5);
+}
+
+/* Zoekicoon naast de zoekbalk */
+.sidebar-links li a {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.sidebar-links li span.material-symbols-outlined {
+  font-size: 20px;
+  color: #fff2f2;
+  transition: color 0.3s ease;
+}
+
+/* Icoon effect bij hover */
+.sidebar-links li a:hover span.material-symbols-outlined {
+  color: #656262b7;
+}
+
 /* Hoofdinhoud */
 main {
   margin-left: 0;
@@ -175,14 +211,14 @@ main {
 .containerProducten {
   margin: 0 auto;
   max-width: 1000px;
-  padding: 20px;
+  padding-left: 70px;
 }
 
 /* container categorie*/
 .containerCategorie {
   margin: 0 auto;
   max-width: 1000px;
-  padding: 20px;
+  padding-left: 70px;
 }
 
 /* Productlijst */
@@ -265,6 +301,7 @@ main {
   justify-content: center;
   background-color: #e1c4bc;
   padding: 20px 10;
+  margin: 30px;
 }
 
 .offer-row {
