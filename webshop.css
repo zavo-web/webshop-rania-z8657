@@ -6,13 +6,18 @@ body {
 }
 
 /* Header en navigatie */
+
 header {
+  position: fixed;
+  width: 100%; /* Zorgt dat de header de volledige breedte inneemt */
+  width: 1217px;
   background-color: #000000;
   color: #fff;
-  padding: 10px 20px;
+  padding: 4px 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* schaduw voor visuele scheiding */
 }
 
 .header-content {
@@ -67,7 +72,7 @@ nav ul li a:hover {
   top: 0;
   left: 0;
   height: 100%;
-  width: 48px;
+  width: 43px;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -139,31 +144,6 @@ nav ul li a:hover {
   color: #cdcbcbd5;
 }
 
-/* Zoekbalk styling in de sidebar */
-.sidebar-links li input[type="text"] {
-  width: 80%;
-  padding: px;
-  margin: 4px 0px;
-  border: 2px solid #ccc;
-  border-radius: 20px;
-  outline: none;
-  font-size: 14px;
-  transition: all 0.3s ease;
-}
-
-/* Zoekbalk hover en focus effecten */
-.sidebar-links li input[type="text"]:focus {
-  border-color: #ffffff;
-  box-shadow: 0 0 5px rgba(236, 223, 223, 0.5);
-}
-
-/* Zoekicoon naast de zoekbalk */
-.sidebar-links li a {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
 .sidebar-links li span.material-symbols-outlined {
   font-size: 20px;
   color: #fff2f2;
@@ -189,11 +169,12 @@ main {
 .hero-image {
   background-color: #000000;
   height: 500px;
+  margin-top: 0px;
   padding-right: 227px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .products,

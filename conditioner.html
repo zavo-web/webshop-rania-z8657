@@ -2,8 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shampoos - Webshop</title>
+    <title>Webshop voor Haarproducten</title>
+    <!-- Linking Google font link for icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="stylesheet" href="conditioner.css" />
   </head>
   <body>
@@ -13,17 +19,50 @@
         <img
           src="https://franckcoiffure.com/wp-content/uploads/2022/08/kerastase-logo-blanc.png"
           class="logo"
+          alt="Kérastase Logo"
         />
       </div>
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index.html #producten">Producten</a></li>
-          <li><a href="index.html #categorieën">Categorieën</a></li>
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#producten">Producten</a></li>
+          <li><a href="index.html#categorieën">Categorieën</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/002/292/406/non_2x/hamburger-menu-line-icon-free-vector.jpg"
+          alt="menu icon"
+        />
+        <h2>Menu</h2>
+      </div>
+      <div class="menu-separator"></div>
+      <ul class="sidebar-links">
+        <li>
+          <a href="#">
+            <span class="material-symbols-outlined"> shopping_cart </span>
+            Winkelwagen
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="material-symbols-outlined"> favorite </span>
+            Wishlist
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="material-symbols-outlined"> person </span>
+            Profiel
+          </a>
+        </li>
+      </ul>
+    </aside>
 
     <!-- Producten van de categorie -->
     <main>
@@ -50,8 +89,7 @@
             />
             <h3>Chroma absolu conditioner</h3>
             <p>
-              Regenererende verzorgingsfondant voor beschadigd of
-              gesensibiliseerd haar
+              Regenererende fondant voor beschadigd of gesensibiliseerd haar
             </p>
             <p>38,35 €</p>
             <button>In winkelwagen</button>
