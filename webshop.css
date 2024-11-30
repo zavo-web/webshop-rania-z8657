@@ -9,7 +9,7 @@ body {
 
 header {
   position: fixed;
-  width: 100%; /* Zorgt dat de header de volledige breedte inneemt */
+  width: 100%;
   width: 1217px;
   background-color: #000000;
   color: #fff;
@@ -77,14 +77,14 @@ nav ul li a:hover {
   flex-direction: column;
   overflow-x: hidden;
   background: #000000;
-  padding: 25px 15px; /* Verander de padding voor uniformiteit */
+  padding: 25px 15px;
   transition: width 0.4s ease;
 }
 
 .sidebar-content {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Voegt ruimte toe tussen de elementen */
+  gap: 15px;
 }
 
 .sidebar:hover {
@@ -94,7 +94,7 @@ nav ul li a:hover {
 .sidebar-header {
   display: flex;
   align-items: center;
-  padding-left: 5px; /* Zorgt voor consistentie aan de linkerkant */
+  padding-left: 5px;
 }
 
 .sidebar-links {
@@ -170,7 +170,7 @@ main {
   background-color: #000000;
   height: 500px;
   margin-top: 0px;
-  padding-right: 227px;
+  padding-right: 230px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -288,17 +288,17 @@ main {
 .offer-row {
   display: flex;
   align-items: center;
-  width: 90%; /* Of gebruik 100% voor volledige breedte */
+  width: 90%;
   gap: 20px;
 }
 
-.offer-image img {
-  max-width: 100%;
+.offer img {
+  max-width: 500px;
   height: auto;
 }
 
 .offer-text {
-  color: #000; /* Pas indien nodig aan voor contrast */
+  color: #000;
   flex: 1;
 }
 
